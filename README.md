@@ -1,82 +1,91 @@
 Sistema de Gerenciamento de Aulas (SGA)
 
-Um sistema completo para gerenciamento e acesso a cursos online, desenvolvido com Next.js, React, TypeScript e Tailwind CSS.
-
+Um sistema completo para gerenciamento e acesso a cursos online, permitindo que os usuários aprendam no seu próprio ritmo, acompanhem seu progresso e alcancem seus objetivos educacionais.
 📋 Funcionalidades
-Autenticação (Login/Registro)
-Listagem e detalhes de cursos
-Gerenciamento de perfil de usuário
-Visualização de conteúdo estruturado
-Acompanhamento de progresso
-Design responsivo
-Modo escuro
-Dashboard personalizado
-Sistema de notificações
-🚀 Começando
 
-Siga estas instruções para obter uma cópia do projeto funcionando em sua máquina local para fins de desenvolvimento e teste.
+    Autenticação: Sistema completo de login e registro
+    Listagem de Cursos: Visualização e busca de cursos disponíveis
+    Detalhes do Curso: Informações detalhadas e conteúdo dos cursos
+    Gerenciamento de Perfil: Edição de informações do usuário
+    Acompanhamento de Progresso: Visualização do progresso em cada curso
+    Design Responsivo: Interface adaptável a diferentes dispositivos
+    Modo Escuro: Alternância entre temas claro e escuro
+    Dashboard: Visão geral dos cursos e progresso do usuário
+    Notificações: Sistema de alertas e mensagens importantes
 
-Pré-requisitos
-Node.js (versão 14.x ou superior)
-npm ou yarn
-Instalação
-Clone o repositório
-git clone https://github.com/diego-humberto/gerenciamento-de-aulas.git
-cd gerenciamento-de-aulas
+🚀 Tecnologias Utilizadas
 
-Instale as dependências
+    Next.js
+    React
+    TypeScript
+    Tailwind CSS
+    Shadcn UI
+    
+
+🛠️ Instalação
+
+# Clone o repositório
+git clone https://github.com/seu-usuario/sga.git
+
+# Entre na pasta do projeto
+cd sga
+
+# Instale as dependências
 npm install
-# ou
-yarn install
 
-Execute o servidor de desenvolvimento
+# Execute o servidor de desenvolvimento
 npm run dev
-# ou
-yarn dev
 
-Abra http://localhost:3000 no seu navegador para ver o resultado.
-🛠️ Construído com
-Next.js - Framework React
-React - Biblioteca JavaScript para interfaces
-TypeScript - Superset JavaScript tipado
-Tailwind CSS - Framework CSS utilitário
-Shadcn UI - Componentes de UI reutilizáveis
-📁 Estrutura do Projeto
-/app                    # Diretórios de rotas Next.js
-  /courses             # Páginas de cursos
-  /dashboard           # Página do dashboard
-  /login               # Página de login
-  /register            # Página de registro
-/components            # Componentes React reutilizáveis
-/lib                   # Utilitários, tipos e dados mock
+📂 Estrutura do Projeto
 
-🔧 Configuração para Produção
-
-Para construir o aplicativo para produção:
-
-npm run build
-# ou
-yarn build
+sga/  
+├── app/                    # Rotas e páginas da aplicação  
+│   ├── courses/            # Páginas de cursos  
+│   ├── dashboard/          # Dashboard do usuário  
+│   ├── login/              # Página de login  
+│   ├── register/           # Página de registro  
+│   ├── globals.css         # Estilos globais  
+│   └── layout.tsx          # Layout principal  
+├── components/             # Componentes reutilizáveis  
+│   ├── course-card.tsx     # Card de curso  
+│   ├── header.tsx          # Cabeçalho da aplicação  
+│   ├── mode-toggle.tsx     # Alternador de tema  
+│   └── ui/                 # Componentes de UI  
+├── lib/                    # Utilitários e tipos  
+│   ├── mock-data.ts        # Dados de exemplo  
+│   └── types.ts            # Definições de tipos  
+└── public/                 # Arquivos estáticos  
 
 
-Para iniciar o servidor em modo de produção:
+🔍 Implementação
+Etapas de Implementação
 
-npm start
-# ou
-yarn start
+    Configuração Base: Estrutura inicial e configurações
+    Componentes UI: Criação de componentes reutilizáveis
+    Autenticação: Implementação das páginas de login e registro
+    Listagem de Cursos: Exibição e filtragem de cursos
+    Dashboard: Criação da visão geral do usuário
+    Gerenciamento de Perfil: Edição de informações do usuário
+    Modo Escuro: Implementação da alternância de temas
+    Notificações: Sistema de alertas para o usuário
 
-🤝 Contribuindo
+Componentes Principais
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir um issue ou enviar um pull request.
+    Layout: Header, Footer, Sidebar
+    Autenticação: Formulários de login e registro
+    Cursos: Cards de curso, indicadores de progresso
+    Perfil: Componentes de gerenciamento de usuário
+    Navegação: Menus e links de navegação
+    Tema: Alternador entre modo claro e escuro
+    Notificações: Dropdown de alertas
 
-Faça um Fork do projeto
-Crie sua Feature Branch (git checkout -b feature/AmazingFeature)
-Commit suas mudanças (git commit -m 'Add some AmazingFeature')
-Push para a Branch (git push origin feature/AmazingFeature)
-Abra um Pull Request
+📱 Capturas de Tela
 
-📬 Contato
+Adicione capturas de tela do seu projeto aqui
+🔮 Próximos Passos
 
-Diego Humberto - GitHub
-
-Link do projeto: https://github.com/diego-humberto/gerenciamento-de-aulas
+    Integração com backend real
+    Implementação de sistema de pagamentos
+    Adição de recursos de comunidade e fórum
+    Suporte a múltiplos idiomas
+    Implementação de análises e relatórios avançados
